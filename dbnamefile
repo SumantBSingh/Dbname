@@ -1,10 +1,66 @@
-InvProcPortal
-rDBSvmst
-rDBSprqt
-rDBSvend
-rDBSCOMMON
-rDBSglep
-DBSvmst
-DBSvend
-DBSCOMMON
-https://stash.int100.cibcfcib.com/stash/projects/AML/repos/aml-periodic-review/browse
+{
+    "client_ref": "0000000304",
+    "hits": [
+        {
+            "type": "SAC",
+            "origin": "FCIB-PEP",
+            "reason": "INTERNAL",
+            "field_name": "NAM",
+            "full_name": "Mottley, Mia Amor",
+            "address": {
+                "line_1": "A COUPLE OF BRANCHES, LODGE HILL",
+                "city": "ST. MICHAEL",
+                "state": "",
+                "country": "BARBADOS"
+            },
+            "events": [
+                {
+                    "type": "BIRTH",
+                    "date": "10/1/1965",
+                    "address": "Barbados"
+                }
+            ],
+            "country_links": [],
+            "national_id": "",
+            "passport_no": "PASSPORT#D0001537 ISSUED 03 JUN 2014 EXPIRES 06 JUN 2019",
+            "reference": "5/6/2018",
+            "fml_id": "FCIL004517",
+            "additional_info": "Barbados PEP: Prime Minister, Minister of Finance, Economic Affairs and Investment (Jun 2018 - ). Elected member of the House of Assembly for St. Michael North East (1994 - ). Former Deputy Prime Minister under the Owen Arthur administration. Leader of Barbados Labour Party.",
+            "rule_info": ""
+        },
+        {
+            "type": "PEP",
+            "origin": "From Refinitiv's World-Check One",
+            "reason": "POLITICAL INDIVIDUAL",
+            "field_name": null,
+            "full_name": "Mia Amor MOTTLEY",
+            "address": {
+                "line_1": null,
+                "city": null,
+                "state": null,
+                "country": null
+            },
+            "events": [],
+            "country_links": [
+                {
+                    "code": "BRB",
+                    "type": "NATIONALITY"
+                },
+                {
+                    "code": "BRB",
+                    "type": "LOCATION"
+                },
+                {
+                    "code": "USA",
+                    "type": "LOCATION"
+                }
+            ],
+            "national_id": null,
+            "passport_no": null,
+            "reference": "e_tr_wci_4230",
+            "fml_id": null,
+            "additional_info": null,
+            "rule_info": null
+        }
+    ]
+}
