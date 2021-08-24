@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "876044ba-f366-4a03-a904-72a8d3853f35",
+		"name": "CSP DEV",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CSP Screening Request DEV",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmZWVhYjNiNy1jOWM4LTQ1NzgtYTM3NC1lOGYwNzc1MmEzNDkiLCJpYXQiOjE1OTQwNjQwMTcsImNpZCI6ImNvbXBsaWFuY2UuYXBpIiwicmVhbG0iOiJzZXJ2aWNlIiwiZXhwIjoxOTM5NjY0MDE3LCJzY29wZXMiOlsiY29tcGxpYW5jZS5zY3JlZW5pbmcudmlldyIsImNvbXBsaWFuY2Uuc2NyZWVuaW5nLnByb2ZpbGUudmlldyJdLCJzaWQiOiJkZWY4ODNiYi0zZThkLTQxNjItYWMxOS0zOWMyMTA4MjVkMzUifQ.BhT_XL2jyukqpN_qgj-yXNybslFlPwnKII4ffJZ3bg4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-mock-username",
+						"value": "{{username}}",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "bearer {{bearer_token}}",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"client_ref\": 123456789,\r\n    \"first_name\": \"Andrew Holness\",\r\n    \"middle_name\": \"\",\r\n    \"last_name\": \" \",\r\n    \"gender\": \"\",\r\n    \"date_of_birth\": \"\",\r\n    \"screen_type\": \"BOTH\",\r\n    \"entity_type\": \"INDIVIDUAL\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.int100.cibcfcib.com/dco/compliance-screening/v3/screening",
+					"protocol": "https",
+					"host": [
+						"api",
+						"int100",
+						"cibcfcib",
+						"com"
+					],
+					"path": [
+						"dco",
+						"compliance-screening",
+						"v3",
+						"screening"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
